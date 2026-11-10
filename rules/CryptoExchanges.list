@@ -1,0 +1,132 @@
+# 主流加密货币交易所（全量合并） · Surge 分流规则
+# Surge RULE-SET（远程规则集）：文件内只写匹配条件，不带策略；
+# 策略在引用处指定，例如：
+#   RULE-SET,https://raw.githubusercontent.com/carlleilzj/surge-crypto-rules/main/rules/CryptoExchanges.list,你的策略组名
+# DOMAIN-SUFFIX 匹配该域名及全部子域名，覆盖 www / api / ws / m / static 等网页与 App 端点。
+# 更新日期：2026-11-11
+
+
+# ---- 币安 Binance（含 BNB Chain 静态资源） ----
+DOMAIN-SUFFIX,binance.com
+DOMAIN-SUFFIX,binance.info
+DOMAIN-SUFFIX,binance.us
+DOMAIN-SUFFIX,binancezh.com
+DOMAIN-SUFFIX,binance.vision
+DOMAIN-SUFFIX,bnbstatic.com
+DOMAIN-SUFFIX,binanceapis.com
+DOMAIN-SUFFIX,binance.me
+DOMAIN-SUFFIX,binancex.com
+DOMAIN-SUFFIX,binance.cloud
+
+# ---- 欧易 OKX（原 OKEx，含 OKCoin / OKLink） ----
+DOMAIN-SUFFIX,okx.com
+DOMAIN-SUFFIX,okex.com
+DOMAIN-SUFFIX,okex.me
+DOMAIN-SUFFIX,okefinance.com
+DOMAIN-SUFFIX,okxusercontent.com
+DOMAIN-SUFFIX,okxstatic.com
+DOMAIN-SUFFIX,okx.me
+DOMAIN-SUFFIX,okcoin.com
+DOMAIN-SUFFIX,oklink.com
+
+# ---- Bybit（含备用 / 随机域名 / AWS 基础设施，关键词兜底） ----
+DOMAIN-SUFFIX,bybit.com
+DOMAIN-SUFFIX,bybitglobal.com
+DOMAIN-SUFFIX,bybit.uk
+DOMAIN-SUFFIX,bybit.us
+DOMAIN-SUFFIX,bybit.io
+DOMAIN-SUFFIX,bybit.biz
+DOMAIN-SUFFIX,bybit-aws.com
+DOMAIN-SUFFIX,bybdc6.com
+DOMAIN-SUFFIX,byabcde.com
+DOMAIN-SUFFIX,byapps.net
+DOMAIN-SUFFIX,byd3c3.com
+DOMAIN-SUFFIX,ng-dex.com
+DOMAIN-KEYWORD,bybit
+
+# ---- Coinbase ----
+DOMAIN-SUFFIX,coinbase.com
+DOMAIN-SUFFIX,coinbasepro.com
+DOMAIN-SUFFIX,coinbasecommerce.com
+
+# ---- Kraken ----
+DOMAIN-SUFFIX,kraken.com
+DOMAIN-SUFFIX,krakenfx.com
+
+# ---- KuCoin 酷币 ----
+DOMAIN-SUFFIX,kucoin.com
+DOMAIN-SUFFIX,kucoin.io
+DOMAIN-SUFFIX,kucoin.cloud
+
+# ---- Bitget ----
+DOMAIN-SUFFIX,bitget.com
+
+# ---- Gate.io 芝麻开门 ----
+DOMAIN-SUFFIX,gate.io
+DOMAIN-SUFFIX,gate.com
+
+# ---- HTX（原火币 Huobi） ----
+DOMAIN-SUFFIX,htx.com
+DOMAIN-SUFFIX,htxglobal.com
+DOMAIN-SUFFIX,huobi.com
+DOMAIN-SUFFIX,huobi.pro
+DOMAIN-SUFFIX,huobi.me
+DOMAIN-SUFFIX,huobiwallet.com
+DOMAIN-SUFFIX,huobigroup.com
+
+# ---- MEXC 抹茶 ----
+DOMAIN-SUFFIX,mexc.com
+DOMAIN-SUFFIX,mexcglobal.com
+DOMAIN-SUFFIX,mexc.io
+DOMAIN-SUFFIX,mexcusercontent.com
+
+# ---- Bitfinex ----
+DOMAIN-SUFFIX,bitfinex.com
+DOMAIN-SUFFIX,bitfinexusercontent.com
+
+# ---- Crypto.com ----
+DOMAIN-SUFFIX,crypto.com
+DOMAIN-SUFFIX,cryptocom.com
+DOMAIN-SUFFIX,crypto.org
+
+# ---- Gemini ----
+DOMAIN-SUFFIX,gemini.com
+DOMAIN-SUFFIX,geminiwallet.com
+
+# ---- BitMEX ----
+DOMAIN-SUFFIX,bitmex.com
+
+# ---- Deribit ----
+DOMAIN-SUFFIX,deribit.com
+DOMAIN-SUFFIX,deribit.net
+
+# ---- Bitstamp ----
+DOMAIN-SUFFIX,bitstamp.net
+
+# ---- Robinhood ----
+DOMAIN-SUFFIX,robinhood.com
+
+# ---- 其他常用交易所 ----
+DOMAIN-SUFFIX,upbit.com
+DOMAIN-SUFFIX,bithumb.com
+DOMAIN-SUFFIX,coinex.com
+DOMAIN-SUFFIX,bingx.com
+DOMAIN-SUFFIX,xt.com
+DOMAIN-SUFFIX,lbank.com
+DOMAIN-SUFFIX,phemex.com
+DOMAIN-SUFFIX,whitebit.com
+DOMAIN-SUFFIX,bitmart.com
+DOMAIN-SUFFIX,poloniex.com
+DOMAIN-SUFFIX,blofin.com
+DOMAIN-SUFFIX,deepcoin.com
+DOMAIN-SUFFIX,toobit.com
+DOMAIN-SUFFIX,bitflyer.com
+DOMAIN-SUFFIX,coincheck.com
+
+# ---- 去中心化衍生品 / 预测市场 ----
+DOMAIN-SUFFIX,hyperliquid.xyz
+DOMAIN-SUFFIX,dydx.exchange
+DOMAIN-SUFFIX,dydx.trade
+DOMAIN-SUFFIX,gmx.io
+DOMAIN-SUFFIX,asterdex.com
+DOMAIN-SUFFIX,polymarket.com

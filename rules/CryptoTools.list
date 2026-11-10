@@ -1,0 +1,33 @@
+# 行情 / 钱包 / 区块浏览器 · Surge 分流规则
+# Surge RULE-SET（远程规则集）：文件内只写匹配条件，不带策略；
+# 策略在引用处指定，例如：
+#   RULE-SET,https://raw.githubusercontent.com/carlleilzj/surge-crypto-rules/main/rules/CryptoTools.list,你的策略组名
+# DOMAIN-SUFFIX 匹配该域名及全部子域名，覆盖 www / api / ws / m / static 等网页与 App 端点。
+# 更新日期：2026-11-11
+
+
+# ---- 行情 / 数据 ----
+DOMAIN-SUFFIX,coinmarketcap.com
+DOMAIN-SUFFIX,coingecko.com
+DOMAIN-SUFFIX,tradingview.com
+
+# ---- 钱包 ----
+DOMAIN-SUFFIX,metamask.io
+DOMAIN-SUFFIX,trustwallet.com
+DOMAIN-SUFFIX,phantom.app
+DOMAIN-SUFFIX,imtoken.com
+DOMAIN-SUFFIX,exodus.com
+DOMAIN-SUFFIX,onekey.so
+DOMAIN-SUFFIX,safepal.com
+DOMAIN-SUFFIX,bitkeep.org
+DOMAIN-SUFFIX,bitgetwallet.com
+
+# ---- 区块浏览器 / RPC ----
+DOMAIN-SUFFIX,etherscan.io
+DOMAIN-SUFFIX,bscscan.com
+DOMAIN-SUFFIX,solscan.io
+DOMAIN-SUFFIX,blockchain.com
+DOMAIN-SUFFIX,mempool.space
+DOMAIN-SUFFIX,infura.io
+DOMAIN-SUFFIX,alchemy.com
+DOMAIN-SUFFIX,quicknode.com

@@ -1,0 +1,32 @@
+# 其他常用交易所 + 去中心化衍生品 · Surge 分流规则
+# Surge RULE-SET（远程规则集）：文件内只写匹配条件，不带策略；
+# 策略在引用处指定，例如：
+#   RULE-SET,https://raw.githubusercontent.com/carlleilzj/surge-crypto-rules/main/rules/OtherExchanges.list,你的策略组名
+# DOMAIN-SUFFIX 匹配该域名及全部子域名，覆盖 www / api / ws / m / static 等网页与 App 端点。
+# 更新日期：2026-11-11
+
+
+# ---- 其他常用交易所 ----
+DOMAIN-SUFFIX,upbit.com
+DOMAIN-SUFFIX,bithumb.com
+DOMAIN-SUFFIX,coinex.com
+DOMAIN-SUFFIX,bingx.com
+DOMAIN-SUFFIX,xt.com
+DOMAIN-SUFFIX,lbank.com
+DOMAIN-SUFFIX,phemex.com
+DOMAIN-SUFFIX,whitebit.com
+DOMAIN-SUFFIX,bitmart.com
+DOMAIN-SUFFIX,poloniex.com
+DOMAIN-SUFFIX,blofin.com
+DOMAIN-SUFFIX,deepcoin.com
+DOMAIN-SUFFIX,toobit.com
+DOMAIN-SUFFIX,bitflyer.com
+DOMAIN-SUFFIX,coincheck.com
+
+# ---- 去中心化衍生品 / 预测市场 ----
+DOMAIN-SUFFIX,hyperliquid.xyz
+DOMAIN-SUFFIX,dydx.exchange
+DOMAIN-SUFFIX,dydx.trade
+DOMAIN-SUFFIX,gmx.io
+DOMAIN-SUFFIX,asterdex.com
+DOMAIN-SUFFIX,polymarket.com

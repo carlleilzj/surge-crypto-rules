@@ -1,0 +1,12 @@
+# Crypto.com · Surge 分流规则
+# Surge RULE-SET（远程规则集）：文件内只写匹配条件，不带策略；
+# 策略在引用处指定，例如：
+#   RULE-SET,https://raw.githubusercontent.com/carlleilzj/surge-crypto-rules/main/rules/CryptoCom.list,你的策略组名
+# DOMAIN-SUFFIX 匹配该域名及全部子域名，覆盖 www / api / ws / m / static 等网页与 App 端点。
+# 更新日期：2026-11-11
+
+
+# ---- Crypto.com ----
+DOMAIN-SUFFIX,crypto.com
+DOMAIN-SUFFIX,cryptocom.com
+DOMAIN-SUFFIX,crypto.org

@@ -1,0 +1,22 @@
+# Bybit（含备用 / 随机域名 / AWS 基础设施，关键词兜底） · Surge 分流规则
+# Surge RULE-SET（远程规则集）：文件内只写匹配条件，不带策略；
+# 策略在引用处指定，例如：
+#   RULE-SET,https://raw.githubusercontent.com/carlleilzj/surge-crypto-rules/main/rules/Bybit.list,你的策略组名
+# DOMAIN-SUFFIX 匹配该域名及全部子域名，覆盖 www / api / ws / m / static 等网页与 App 端点。
+# 更新日期：2026-11-11
+
+
+# ---- Bybit（含备用 / 随机域名 / AWS 基础设施，关键词兜底） ----
+DOMAIN-SUFFIX,bybit.com
+DOMAIN-SUFFIX,bybitglobal.com
+DOMAIN-SUFFIX,bybit.uk
+DOMAIN-SUFFIX,bybit.us
+DOMAIN-SUFFIX,bybit.io
+DOMAIN-SUFFIX,bybit.biz
+DOMAIN-SUFFIX,bybit-aws.com
+DOMAIN-SUFFIX,bybdc6.com
+DOMAIN-SUFFIX,byabcde.com
+DOMAIN-SUFFIX,byapps.net
+DOMAIN-SUFFIX,byd3c3.com
+DOMAIN-SUFFIX,ng-dex.com
+DOMAIN-KEYWORD,bybit
